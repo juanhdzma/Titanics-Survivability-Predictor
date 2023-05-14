@@ -50,3 +50,39 @@ You can install these dependencies by running the following command:
 
 ```bash
 pip install pandas numpy scikit-learn keras tensorflow
+```
+
+Usage:
+1. Clone the repository:
+git clone https://github.com/your-username/survivability-predictor.git
+
+2. Navigate to the project directory:
+cd survivability-predictor
+
+3. Download the dataset from Kaggle and place the 'train.csv' and 'test.csv' files in the project directory.
+
+4. Install the required dependencies:
+pip install pandas numpy scikit-learn keras tensorflow
+
+5. Run the Python script to train and evaluate the models:
+python survivability_predictor.py
+
+Results:
+The script will train the ANN, LR, and SVM models on the training data and evaluate their performance using appropriate evaluation metrics. It will generate separate plots for each model, including the confusion matrix and the ROC curve.
+
+License:
+This project is licensed under the MIT License.
+
+Acknowledgments:
+The code for this project is based on the work by Juan Hernandez.
+
+Further Improvements:
+- Explore additional feature engineering techniques
+- Perform thorough hyperparameter tuning
+- Experiment with other machine learning models
+- Implement cross-validation techniques
+- Explore model interpretability methods
+- Deploy the trained model as a web application or API
+
+Contact Information:
+For any questions or contributions, please email your-email@example.com.
