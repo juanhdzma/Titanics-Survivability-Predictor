@@ -1,4 +1,4 @@
-# Survivability Predictor - ANN, LR, SVM
+# Titanic's-Survivability-Predictor - ANN, LR, SVM
 
 The Survivability Predictor project aims to predict the survivability of individuals using machine learning models. The project utilizes a dataset that contains various features related to individuals, such as age, sex, number of siblings/spouses aboard, number of parents/children aboard, fare, and more. These features are used to train the models and make predictions about whether an individual survived or not.
 
@@ -56,7 +56,7 @@ pip install pandas numpy scikit-learn keras tensorflow
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/survivability-predictor.git
+git clone https://github.com/juanhdzma/Titanics-Survivability-Predictor.git
 ```
 
 2. Navigate to the project directory:
