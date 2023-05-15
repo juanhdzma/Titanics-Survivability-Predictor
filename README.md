@@ -77,10 +77,7 @@ python survivability_predictor.py
 ```
 
 ## Results
-The script will train the ANN, LR, and SVM models on the training data and evaluate their performance using appropriate evaluation metrics. It will generate separate plots for each model, including the confusion matrix and the ROC curve.
-
-## License
-This project is licensed under the MIT License.
+The script will train the ANN, LR, and SVM models on the training data and evaluate their performance using appropriate evaluation metrics. It will generate separate metric for each model, considering Accuracy, F1-Score, Jaccard Index and Running Time.
 
 ## Acknowledgments
 The code for this project is based on the work by Juan Carlos Hernandez.
